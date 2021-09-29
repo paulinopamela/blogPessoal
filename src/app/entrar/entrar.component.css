@@ -1,0 +1,15 @@
+.bg-color{
+    background-color: black;
+}
+
+#img-bg{
+    background-image: url('../../assets/img/alexandru-acea-qEXFE5h0e8g-unsplash.jpg');
+    min-height: 695px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+}
