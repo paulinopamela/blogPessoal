@@ -1,0 +1,15 @@
+.bg-color{
+    background-color: #101519;
+}
+
+#img-bg{
+    background-image: url('../../assets/img/annie-spratt-nCn9gE5-1wU-unsplash.jpg');
+    min-height: 695px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button{
+    margin-right: 15px;
+}
