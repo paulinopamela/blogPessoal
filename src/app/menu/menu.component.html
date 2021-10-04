@@ -8,11 +8,11 @@
       <ul class="navbar-nav mr-auto d-flex align-items-center">
 
         <li class="nav-item active">
-          <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fflor-roxa-em-um-fundo-branco-32730093.jpg&f=1&nofb=1" alt="imagem do user" width="50px" height="50px" class="img-fluid rounded-circle">
+          <img src="{{foto}}" alt="imagem do user" width="50px" height="50px" class="img-fluid rounded-circle">
         </li>
 
         <li class="nav-item ml-3">
-         <p class="m-2 font-weight-bold text-white fs-16">Nome do Usuário</p>
+         <p class="m-2 font-weight-bold text-white fs-16">Olá, {{nome}}</p>
         </li>
      
 
@@ -26,7 +26,7 @@
   </div>
   <ul class="navbar-nav ml-auto d-flex align-items-start">
     <li class="nav-item pl-3">
-        <a class=" m-0 font-weight-bold text-white fs-16">Sair <i class="fa fa-sign-out" aria-hidden="true"></i></a>
+        <a (click)='sair()' class=" m-0 font-weight-bold text-white fs-16">Sair <i class="fa fa-sign-out" aria-hidden="true"></i></a>
       </li>
     </ul>
   </div>
