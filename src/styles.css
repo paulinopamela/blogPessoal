@@ -2,10 +2,14 @@ html{
     scroll-behavior: smooth;
 }
 
-.fs-54{
-    font-size: 54pt;
+.fs-34{
+    font-size: 34pt;
 }
 
 .fs-18{
     font-size: 18pt;
+}
+
+.btn-outline-light{
+    margin-left: 10px;
 }
